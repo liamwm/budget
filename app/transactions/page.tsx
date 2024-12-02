@@ -1,9 +1,10 @@
 import mysql from 'mysql2/promise';
 
-import TransactionsPlot from './plot';
+import TransactionsPlot from '../components/plot';
 
 
 export default async function Page() {
+    
     const connection = await mysql.createConnection({
         host: 'budget_devcontainer-db-1',
         user: 'root',
