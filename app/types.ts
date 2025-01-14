@@ -1,0 +1,1 @@
+type DataPoint = {timestamp: number, date: string, amount: number};
