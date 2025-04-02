@@ -7,6 +7,7 @@ import { CategoricalChartState } from 'recharts/types/chart/types';
 import { getDateBalanceData, getDateDetails } from '../actions';
 
 
+
 export default function BalancePlot({dateBalanceData, initialSelectedDateData}: {dateBalanceData: DateBalanceData[], initialSelectedDateData: TransactionData[]}) {
     const [isClient, setIsClient] = useState(false);
     const [selectedDate, setSelectedDate] = useState(Date.now());
