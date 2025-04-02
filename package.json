@@ -10,10 +10,11 @@
   },
   "dependencies": {
     "mysql2": "^3.11.5",
-    "next": "^15.0.3",
+    "next": "^15.2.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "recharts": "^2.13.3"
+    "recharts": "^2.13.3",
+    "swr": "^2.3.3"
   },
   "devDependencies": {
     "@types/node": "^20.17.9",
